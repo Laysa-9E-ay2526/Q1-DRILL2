@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" context="width=device-width, initial-scale=1">
+	<title>Movie recomendation</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <style type="text/css">
+    	          body{ 
+    	    
+    	     background-image: url(Cinemamovie.jpg);
+    	    font-family:Open sans-serif; 
+    	                  }
+    	h1, hr, p      {
+    		text-align: center;
+    		color: #800080;
+
+                         }
+    		    form{
+    		    	margin: auto;
+    			background-color:#9F8C76;
+    			width:50%;
+    			padding: 50px;
+    			border-radius:10px;
+    			box-shadow
+    		            }
+
+    	
+
+   </style>
+   
+    
+</head>       
+<body>
+
+<form>
+	<h1>Movie Recommendation</h1><hr>
+	
+       <fieldset>
+		
+		<label for="fullname">Full Name </label>
+		<input type="text" name="fullname"><br>
+	    
+		<label for="Your enmail">Your email</label>
+		<Input type="text" name="Your email"><br>
+	    
+		<label for="Movie title">Recommended movie title:</label>
+		<Input type="Titler" name="Recommended movie title"><br>
+	    
+			
+		<label>Why do you recommend it:</label>
+		<textarea cols="70"rows="2"placeholder="Type here"></textarea>
+	 
+	</fieldset>
+	
+    
+    <! - - Genre - ->
+	<fieldset>
+		<legend>Genre</legend>
+		<input type="radio"name="Genre" value = "Fantasy">
+		<label>Fantasy</label>
+
+		<input type="radio"name="Genre" value = "Horror">
+		<label>Horror</label>
+
+		<input type="radio"name="Genre" value = "Comedy">
+		<label>Comedy</label>
+		<input type="radio"name="Genre" value = "Romance">
+		<label>Romance</label>
+		<label for="other">Other</label>
+		<input type="text"name="Other">	
+	</fieldset>
+
+	<fieldset>
+		<legend>Rate the movie</legend>	
+		  <input type="checkbox" id="vehicle1" name="1" value="1">
+		  <label for="1">1</label>
+		  <input type="checkbox" id="vehicle2" name="2" value="2">
+		  <label for="2">2</label>
+		  <input type="checkbox" id="vehicle3" name="3" value="3">
+		  <label for="vehicle3">3</label>
+		  <input type="checkbox" id="vehicle3" name="5" value="4">
+		  <label for="vehicle3">4</label>
+		  <input type="checkbox" id="vehicle3" name="4" value="5">
+		  <label for="vehicle3">5(best)</label>
+	</fieldset>
+
+
+    <fieldset>
+    <legend>Where did you watch it?</legend>
+    <form> 
+    	<input type="radio"name="Application" value = "netflix">
+       <input type="radio"name="Application" value = "AmazonPrime	">
+       <label>AmazonPrime</label>
+       <input type="radio"name="Application" value = "Disney+">
+       <label>Disney+</label>
+       <input type="radio"name="Application" value = "Hulu">
+       <label>Hulu</label>
+   </fieldset>
+
+  
+
+  <input type="submit" value="Submit Recommendation">
+  
+</form>
+
+</body>
+</html>
+
+
